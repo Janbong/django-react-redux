@@ -15,10 +15,10 @@ import {Provider} from "react-redux"
 import store, {history} from './store'
 
 // Sentry API for the app
-// import Raven from "raven-js"
-// import {sentry_url} from "./data/config.js"
+import Raven from "raven-js"
+import {sentry_url} from "./data/config.js"
 
-// Raven.config(sentry_url).install()
+Raven.config(sentry_url).install()
 
 const router = (
   <Provider store={store}>

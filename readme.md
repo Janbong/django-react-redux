@@ -33,3 +33,9 @@ Then just visit `http://localhost:7770/`
 
 ## Todo
 * Upload test file
+
+## Images
+<p align="center"><img src="https://raw.githubusercontent.com/mtusman/django-react-redux/master/media/photo1.PNG" width=80%></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mtusman/django-react-redux/master/media/photo2.PNG" width=80%></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mtusman/django-react-redux/master/media/photo3.PNG" width=80%></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mtusman/django-react-redux/master/media/photo4.PNG" width=80%></p>

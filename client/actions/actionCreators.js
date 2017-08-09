@@ -37,7 +37,7 @@ export function createAccount(email, first_name, last_name, password, redirectTo
             last_name, 
             password
         }).then(response => {
-            dispatch(addFlashMessage('success', 'You\'re account was successfully activated! You can loging now'))
+            dispatch(addFlashMessage('success', 'You\'re account was successfully activated! You can login now'))
             dispatch(push('/'))
         }).catch(errors => dispatch(addSignUpErrors(errors.response.data)))
     )

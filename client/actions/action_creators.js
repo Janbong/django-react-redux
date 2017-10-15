@@ -1,5 +1,5 @@
 import axios from "axios"
-import setAuthorizationHeader from "../utils/setAuthorizationHeader"
+import setAuthorizationHeader from "../utils/set_authorization_header"
 import {push} from "react-router-redux"
 
 export function addFlashMessage(messageType, message){

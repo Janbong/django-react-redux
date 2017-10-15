@@ -18,8 +18,9 @@ This is intended to be a simple project that uses Django as the backend for auth
 
 ## How to get up and running
 
-* `$ git clone git@github.com:mtusman/django-react-redux.gitt`
+* `$ git clone git@github.com:mtusman/django-react-redux.git`
 * `$ cd django-react-redux/backend`
+* `$ pip install -r requirements.txt`
 * `$ python manage.py migrate`
 * `$ python manage.py runserver`
 

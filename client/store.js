@@ -5,8 +5,8 @@ import {browserHistory} from "react-router"
 import thunk from "redux-thunk"
 
 import rootReducer from './reducers/index'
-import setAuthorizationHeader from './utils/setAuthorizationHeader'
-import {verifyExistingToken} from './actions/actionCreators.js'
+import setAuthorizationHeader from './utils/set_authorization_header'
+import {verifyExistingToken} from './actions/action_creators.js'
 
 const initialState = {
     auth: {

@@ -3,10 +3,10 @@ import React from 'react';
 import { render } from 'react-dom';
 
 // Import Components
-import App from "./Components/App"
-import Greetings from './Components/Greetings'
-import SignUp from './Components/SignUp'
-import Login from "./Components/Login"
+import App from "./components/app"
+import Greetings from './components/greetings'
+import SignUp from './components/sign_up'
+import Login from "./components/login"
 
 // import react router deps
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';

@@ -1,7 +1,7 @@
 import React from "react"
 
-import FlashMessage from "./FlashMessage"
-import NavigationBar from "./NavigationBar.js"
+import FlashMessage from "./flash_message"
+import NavigationBar from "./navigation_bar.js"
 
 class Main extends React.Component{
     render(){
